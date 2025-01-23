@@ -8,6 +8,10 @@ global:
 
   datacenter:
     storageClassName: gp3-csi
+    cloudProvider: AWS
+    region: us-west-2
+    clustername: cluster-dfqjj.dfqjj
+    domain: sandbox944.opentlc.com
 
   xraylab:
     namespace: "xraylab-1"
